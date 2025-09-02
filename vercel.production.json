@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "next.config.js",
-      "use": "@vercel/next"
-    }
-  ],
+  "buildCommand": "pnpm build",
+  "installCommand": "pnpm install",
   "env": {
     "NEXT_PUBLIC_API_URL": "amz.dunghaysai.site"
-
   }
 }
